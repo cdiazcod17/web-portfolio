@@ -4,7 +4,7 @@
       <img 
         :src="portada" 
         :alt="titulo"
-        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
       >
       <div v-if="categoria" class="absolute top-3 left-3 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full shadow-sm">
         <span class="text-[10px] font-bold uppercase tracking-wider text-gray-700">{{ categoria }}</span>
