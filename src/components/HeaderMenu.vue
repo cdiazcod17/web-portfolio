@@ -30,13 +30,13 @@
                         <span class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 scale-x-0 group-hover:scale-x-100 [&.router-link-active]:scale-x-100 transition-transform duration-300"></span>
                     </router-link>
                 </div>
-<a 
-    href="mailto:hello@carlosdiaz.dev" 
+<router-link 
+    to="/contact" 
     class="hidden md:flex px-5 py-2.5 bg-gray-900 text-white text-sm font-bold rounded-xl hover:bg-gray-800 transition shadow-lg shadow-gray-200 items-center gap-2"
 >
     Contact
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-</a>
+</router-link>
             </nav>
         </div>
     </header>
