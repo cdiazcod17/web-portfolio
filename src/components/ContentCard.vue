@@ -35,7 +35,7 @@
       </a>
       <a v-if="liveLink" :href="liveLink" target="_blank" class="flex items-center gap-2 text-xs font-bold text-orange-600 hover:text-orange-700 transition-colors">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
-        Live Demo
+        Website
       </a>
     </div>
 
