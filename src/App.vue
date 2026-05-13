@@ -27,7 +27,7 @@ import HeaderMenu from './components/HeaderMenu.vue';
             <span class="text-lg font-bold tracking-tight">Carlos</span>
           </div>
           <p class="text-gray-500 text-sm max-w-xs">
-            Full Stack Developer specialized in building modern, scalable, and secure.
+            Full Stack Developer specialized in building modern, scalable, and secure web applications.
           </p>
         </div>
 

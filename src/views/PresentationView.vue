@@ -1,23 +1,23 @@
 <template>
-  <main class="min-h-screen bg-[#fafafa] flex flex-col items-center justify-center px-6 relative overflow-hidden">
+  <main class="min-h-screen bg-[#fafafa] flex flex-col items-center justify-center px-6 py-12 md:py-20 relative overflow-hidden">
     <!-- Subtle Background Decoration -->
     <div class="absolute top-[-10%] right-[-5%] w-96 h-96 bg-orange-100 rounded-full blur-3xl opacity-50"></div>
     <div class="absolute bottom-[-10%] left-[-5%] w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
 
     <div class="max-w-4xl mx-auto text-center z-10">
-      <h1 class="text-7xl md:text-8xl font-black text-gray-900 tracking-tight mb-4">
+      <h1 class="text-5xl sm:text-7xl md:text-8xl font-black text-gray-900 tracking-tight mb-4">
         Carlos<span class="text-orange-500">.</span>
       </h1>
       
-      <p class="text-2xl md:text-3xl font-medium text-gray-700 mb-6 max-w-2xl mx-auto leading-tight">
+      <p class="text-xl md:text-3xl font-medium text-gray-700 mb-6 max-w-2xl mx-auto leading-tight">
         Building <span class="text-gray-900 italic">robust</span> backend and frontend solutions with modern technologies.
       </p>
 
-      <p class="text-lg text-gray-500 mb-12 max-w-xl mx-auto">
+      <p class="text-base md:text-lg text-gray-500 mb-12 max-w-xl mx-auto">
         Full Stack Developer specializing in Python (FastAPI), Vue 3, and scalable architectures.
       </p>
 
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 md:mb-20">
         <router-link 
           to="/projects" 
           class="px-8 py-4 bg-gray-900 text-white rounded-xl font-bold hover:bg-gray-800 transition shadow-xl shadow-gray-200"

@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen bg-[#fafafa] py-20 px-6">
+  <section class="min-h-screen bg-[#fafafa] py-12 md:py-20 px-6">
     <div class="max-w-4xl mx-auto">
       <header class="mb-16 text-center">
         <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">Get in Touch<span class="text-orange-500">.</span></h2>
